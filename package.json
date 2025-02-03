@@ -1,5 +1,5 @@
 {	
-	"homepage": "https://https://JuliaFrontendWork.github.io/fashion-store",
+	"homepage": "https://JuliaFrontendWork.github.io/fashion-store",
 	"devDependencies": {
 		"@babel/core": "^7.22.5",
 		"@babel/preset-env": "^7.22.5",
