@@ -238,3 +238,18 @@ const serverOptions = {
 gulp.task('server:docs', function () {
 	return gulp.src('./docs/').pipe(server(serverOptions));
 });
+
+const gulp = require("gulp");
+const ghPages = require("gh-pages");
+const path = require("path");
+
+gulp.task("deploy", function (done) {
+    ghPages.publish(path.join(process.cwd(), "build"), function (err) {
+        if (err) {
+            console.error("Ошибка деплоя:", err);
+        } else {
+            console.log("Сайт успешно загружен на GitHub Pages!");
+        }
+        done();
+    });
+});

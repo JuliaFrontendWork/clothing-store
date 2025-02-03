@@ -37,7 +37,7 @@
 		"webpack-stream": "^7.0.0"
 	},
 	"scripts": {
-		"deploy": "npm run build && gh-pages -d build"
+		"deploy": "gulp deploy"
   	},
 	"babel": {
 		"presets": [
