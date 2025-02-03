@@ -239,7 +239,6 @@ gulp.task('server:docs', function () {
 	return gulp.src('./docs/').pipe(server(serverOptions));
 });
 
-const gulp = require("gulp");
 const ghPages = require("gh-pages");
 const path = require("path");
 
