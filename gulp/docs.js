@@ -232,6 +232,7 @@ gulp.task('js:docs', function () {
 const serverOptions = {
 	livereload: true,
 	open: true,
+	port: 8080,
 };
 
 gulp.task('server:docs', function () {
